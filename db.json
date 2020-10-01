@@ -1,0 +1,86 @@
+{
+    "print_servers":[
+        {
+            "id": "PS1",
+            "name": "Print Server 1",
+            "ip_address": "10.0.6.1",
+            "last_check_in_time":"2020-09-01 14:30:13",
+            "printers": [
+                {
+                    "id": "1ASD",  
+                    "name": "Printer 1",
+                    "ip_address": "10.0.6.12",
+                    "printer_server":"PS1",
+                    "tags":"some tags",
+                    "synchronized": 0
+                  },
+                  {
+                    "id": "2ASD",  
+                    "name": "Printer 2",
+                    "ip_address": "10.0.6.14",
+                    "printer_server":"PS1",
+                    "tags":"some tags",
+                    "synchronized": 1
+                  }
+            ]
+        },
+        {
+            "id": "PS2",
+            "name": "Print Server 2",
+            "ip_address": "10.0.7.1",
+            "last_check_in_time":"2020-09-015 14:30:13",
+            "printers": [
+                {
+                    "id": "3ASD",  
+                    "name": "Printer 3",
+                    "ip_address": "10.0.7.10",
+                    "printer_server":"PS2",
+                    "tags":"some tags",
+                    "synchronized": 1
+                  },
+                  {
+                    "id": "4ASD",  
+                    "name": "Printer 2",
+                    "ip_address": "10.0.7.15",
+                    "printer_server":"PS2",
+                    "tags":"some tags",
+                    "synchronized": 1
+                  }
+            ]
+        }
+    ],
+    "printers": [
+      {
+        "id": "1ASD",  
+        "name": "Printer 1",
+        "ip_address": "10.0.6.12",
+        "printer_server":"PS1",
+        "tags":"some tags",
+        "synchronized": 0
+      },
+      {
+        "id": "2ASD",  
+        "name": "Printer 2",
+        "ip_address": "10.0.6.14",
+        "printer_server":"PS1",
+        "tags":"some tags",
+        "synchronized": 1
+      },
+      {
+        "id": "3ASD",  
+        "name": "Printer 3",
+        "ip_address": "10.0.7.10",
+        "printer_server":"PS2",
+        "tags":"some tags",
+        "synchronized": 1
+      },
+      {
+        "id": "4ASD",  
+        "name": "Printer 2",
+        "ip_address": "10.0.7.15",
+        "printer_server":"PS2",
+        "tags":"some tags",
+        "synchronized": 1
+      }
+    ]
+  }
